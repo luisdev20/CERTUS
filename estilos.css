@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background: url(img/background.png) no-repeat center;
+    background-size: cover;
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+header{
+    background: #282D1F;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 20px;
+    background: rgba(58,71,35,.4);
+    display: block;
+    gap: 30px;
+    color:  white;
+    text-align: center;
+}
+
+#imagen{
+    width: 300px;
+}
+
+#palabra_a_adivinar{
+    height: 3em;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    color:  yellow;
+}
+
+
+
+#letras{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+#letras button{
+    width: 50px;
+    padding: 6px 0;
+    text-align: center;
+}
